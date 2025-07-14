@@ -1,10 +1,5 @@
 title: devlopr
 subtitle: A Portfolio Jekyll Theme Built for Developers
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
-
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -29,7 +24,6 @@ author: John Doe
 author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "mail@sujaykundu.com"
 author_location: India
-author_website_url: "https://sujaykundu.com"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
@@ -90,9 +84,6 @@ instagram_username: xplor4r
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
 
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
 formspree_email: johndoe@gmail.com
@@ -150,7 +141,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /blog/authors/:slug
+
   -
     scope:
       path: 'assets/**'
