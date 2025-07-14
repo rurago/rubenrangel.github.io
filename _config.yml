@@ -3,7 +3,7 @@ title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
 favicon: /assets/icons/favicon.ico
 
-remote_theme: "jekyll/minima@1e8a445"
+theme: minima
 
 # Personalización (OJO: minima no aplica con hacker)
 jekyll-theme-hacker:
