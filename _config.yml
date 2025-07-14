@@ -31,8 +31,3 @@ comments:
 
 excerpt_separator: "<!--more-->"
 
-# Colecciones
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
