@@ -1,11 +1,32 @@
 # Configuración básica
 title: "Portafolio de Rubén Rangel"
 description: "Desarrollador Full-Stack con experiencia en Node.js y React"
+favicon: /assets/icons/favicon.ico
 
 theme: jekyll-theme-hacker
 
-baseurl: ""  
-url: "https://rubenrg.info"  # Tu dominio
-plugins:
-  - jekyll-feed
+# Personalización (OJO: minima no aplica con hacker)
+jekyll-theme-hacker:
+  social_links:
+    github: rubenrangel
+    linkedin: ruben-rangel-812377234
 
+# SEO
+seo:
+  title: true
+  description: true
+  image: /assets/portada.jpg
+
+# Comentarios
+comments:
+  provider: utterances
+  utterances:
+    repo: rubenrangel/rubenrangel.github.io
+
+excerpt_separator: "<!--more-->"
+
+# Colecciones
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
