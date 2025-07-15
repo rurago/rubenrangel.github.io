@@ -393,10 +393,6 @@ key: value
 ```
 ````
 
-{% raw %}
-> The Jekyll tag `{% highlight %}` is not compatible with this theme.
-{: .prompt-danger }
-{% endraw %}
 
 #### Line Number
 
