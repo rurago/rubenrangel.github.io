@@ -263,8 +263,9 @@ For normal images:
 You can embed videos from social media platforms with the following syntax:
 
 ```liquid
+{% raw %}
 {% include embed/{Platform}.html id='{ID}' %}
-```
+{% endraw %}```
 
 Where `Platform` is the lowercase of the platform name, and `ID` is the video ID.
 
