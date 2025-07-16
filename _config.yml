@@ -4,7 +4,7 @@
 remote_theme: cotes2020/jekyll-theme-chirpy
 
 plugins:
-  - jekyll-seo-tag
+#  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-include-cache
