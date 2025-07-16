@@ -8,7 +8,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-include-cache
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -139,11 +139,9 @@ comments:
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
-  self_host: true
-    # enabled: # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
-    env: production
+  self_host:
+    enabled: true
+    env: production  # Solo en producción
 
 pwa:
   enabled: true # The option for PWA feature (installable)
